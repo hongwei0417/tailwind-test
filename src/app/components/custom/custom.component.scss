@@ -1,0 +1,13 @@
+@tailwind components;
+
+@layer components {
+  .custom-1 {
+    @apply text-green-500 text-3xl;
+  }
+  .custom-2 {
+    @apply font-bold opacity-50;
+    color: theme("colors.sky.500");
+    font-size: theme("fontSize.veryBig");
+    text-decoration: underline;
+  }
+}
